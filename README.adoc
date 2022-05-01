@@ -5,33 +5,7 @@ image::ytdwnld.png[title="ytdwnld screenshot", 400, 400]
 
 == Development requirements
 
-// https://www.python.org/downloads/
-=== Python (>=3.10.4)
-
-// https://pypi.org/project/pip/
-=== pip (>=22.0.4)
-`pip install --upgrade pip`
-
-// https://pytube.io/en/latest/
-=== pytube (>=12.0.0)
-`pip install pytube`
-
-// https://pillow.readthedocs.io/en/stable/installation.html
-=== Pillow (>=9.1.0)
-`pip install --upgrade Pillow`
-
-// https://gitpython.readthedocs.io/en/stable/intro.html#installing-gitpython
-=== GitPython (>=3.1.27)
-`pip install gitpython`
-
-// https://pyinstaller.org/en/stable/
-=== py2exe (>=5.0.1)
-*WINDOWS ONLY* `pip install py2exe`
-
-// https://py2app.readthedocs.io/en/latest/
-=== py2app (>=0.28)
-*MACOS ONLY* `pip install -U py2app`
-
+`pip install -r requirements.txt`
 
 // https://stackoverflow.com/questions/5458048/how-can-i-make-a-python-script-standalone-executable-to-run-without-any-dependen
 == Building
