@@ -114,7 +114,7 @@ def downloadButton(target):
 
         # Download highest quality video
         downloadStream = yt.streams.filter(progressive=True, file_extension='mp4').order_by('resolution')[-1]
-        downloadInfo = "[{}] [VIDEO:: {}]\nDOWNLOADING STREAM{}\n\n".format(ct, yt.title, downloadStream)
+        downloadInfo = "[{}] [VIDEO:: {}]\nDOWNLOADING STREAM: {}\n\n".format(ct, yt.title, downloadStream)
         debugInfoTextBox.insert(tk.END, downloadInfo)
         return yt.streams.filter(progressive=True, file_extension='mp4').order_by('resolution')[-1].download()
 
