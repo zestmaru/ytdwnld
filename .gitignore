@@ -1,7 +1,16 @@
 *
 
-!ytdwnld.py
 !.gitignore
+
+# ytdwnld source code directory
+!src/
+!src/*
+
+# build scripts
+!build_windows.py
+!build_macos.py
+
+# repo stuff
 !README.adoc
 !LICENSE
 !ytdwnld.png

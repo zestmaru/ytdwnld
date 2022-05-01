@@ -21,11 +21,29 @@ image::ytdwnld.png[title="ytdwnld screenshot", 400, 400]
 `pip install --upgrade Pillow`
 
 // https://pyinstaller.org/en/stable/
-=== pyinstaller (>=5.0.1)
-`pip install -U pyinstaller`
+=== py2exe (>=5.0.1)
+*WINDOWS ONLY* `pip install py2exe`
+
+// https://py2app.readthedocs.io/en/latest/
+=== py2app (>=0.28)
+*MACOS ONLY* `pip install -U py2app`
 
 
 // https://stackoverflow.com/questions/5458048/how-can-i-make-a-python-script-standalone-executable-to-run-without-any-dependen
 == Building
 
-`pyinstaller -F .\ytdwnld.py`
+// https://stackabuse.com/creating-executable-files-from-python-scripts-with-py2exe/
+* For *Windows* build app with _py2exe_:
++
+`python .\build_windows.py py2exe`
+
+// https://py2app.readthedocs.io/en/latest/tutorial.html#create-a-setup-py-file
+* For *macOS* build app with _py2app_:
++
+. Clean up your build directories:
++ 
+`rm -rf build dist`
++
+. Build app: 
++
+`python build_macos.py py2app`
