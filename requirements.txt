@@ -1,5 +1,5 @@
 pytube >= 12.0.0
 Pillow >= 9.1.0
 gitpython >= 3.1.27
-py2exe >= 5.0.1
+py2exe >= 0.11.1.0
 py2app >= 0.28
