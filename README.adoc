@@ -1,0 +1,11 @@
+= ytdwnld
+
+image::ytdwnld.png[title="ytdwnld screenshot", 400, 400]
+
+== Requirements 
+
+=== pytube 
+`pip install pytube`
+
+=== Pillow
+`pip install --upgrade Pillow`
