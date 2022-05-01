@@ -2,10 +2,30 @@
 
 image::ytdwnld.png[title="ytdwnld screenshot", 400, 400]
 
+
 == Development requirements
 
-=== pytube 
+// https://www.python.org/downloads/
+=== Python (>=3.10.4)
+
+// https://pypi.org/project/pip/
+=== pip (>=22.0.4)
+`pip install --upgrade pip`
+
+// https://pytube.io/en/latest/
+=== pytube (>=12.0.0)
 `pip install pytube`
 
-=== Pillow
+// https://pillow.readthedocs.io/en/stable/installation.html
+=== Pillow (>=9.1.0)
 `pip install --upgrade Pillow`
+
+// https://pyinstaller.org/en/stable/
+=== pyinstaller (>=5.0.1)
+`pip install -U pyinstaller`
+
+
+// https://stackoverflow.com/questions/5458048/how-can-i-make-a-python-script-standalone-executable-to-run-without-any-dependen
+== Building
+
+`pyinstaller -F .\ytdwnld.py`
