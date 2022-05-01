@@ -10,6 +10,9 @@
 !build_windows.py
 !build_macos.py
 
+# version file
+!ytdwnld_version
+
 # repo stuff
 !README.adoc
 !LICENSE

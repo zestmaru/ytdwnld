@@ -12,9 +12,15 @@ from tkinter.constants import *
 from tkinter import messagebox
 import datetime;
 
+# Get ytdwnld version
+ytdwnldVesrion = open('ytdwnld_version', 'r').read()
+
 # Init GUI
 root = tk.Tk()
-root.title("ytdwnld") # Ttile
+
+# TODO: ytdwnld icon
+#root.iconbitmap("ytdwnld.ico") # Icon
+root.title("ytdwnld " + ytdwnldVesrion) # Title
 root.geometry('800x800') # Window size
 
 # Apply the grid layout
@@ -194,7 +200,7 @@ videoInfoLabel.pack()
 
 # Init About text 
 aboutLabel = ttk.Label(tab2,
-          text ="ytdwnld\n\nVersion 1.0.0r0~xxxxx").grid(column = 0,
+          text ="ytdwnld\n\nVersion "+ytdwnldVesrion).grid(column = 0,
                                     row = 0, 
                                     padx = 30,
                                     pady = 30)
