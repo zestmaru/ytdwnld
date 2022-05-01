@@ -19,7 +19,14 @@
 # git version script
 !git_version.py
 
+# github actions
+!.github/
+!.github/*
+!.github/workflows
+!.github/workflows/*
+
 # repo stuff
 !README.adoc
 !LICENSE
 !ytdwnld.png
+!CHANGELOG
