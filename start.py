@@ -8,14 +8,13 @@ from tkinter import *
 import PIL.Image
 import PIL.ImageTk
 import time
-from PIL import Image, ImageTk
 from tkinter.constants import *
 from tkinter import messagebox
 import datetime;
 
 # Init GUI
 root = tk.Tk()
-root.title("Download video") # Ttile
+root.title("ytdwnld") # Ttile
 root.geometry('800x800') # Window size
 
 # Apply the grid layout
@@ -195,7 +194,7 @@ videoInfoLabel.pack()
 
 # Init About text 
 aboutLabel = ttk.Label(tab2,
-          text ="Version 1.0.0r0~xxxxx").grid(column = 0,
+          text ="ytdwnld\n\nVersion 1.0.0r0~xxxxx").grid(column = 0,
                                     row = 0, 
                                     padx = 30,
                                     pady = 30)
