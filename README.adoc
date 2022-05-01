@@ -2,7 +2,7 @@
 
 image::ytdwnld.png[title="ytdwnld screenshot", 400, 400]
 
-== Requirements 
+== Development requirements
 
 === pytube 
 `pip install pytube`
