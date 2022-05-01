@@ -15,6 +15,7 @@ import time
 from tkinter.constants import *
 from tkinter import messagebox
 import datetime;
+import git
 
 # Call setup function 
 setup(

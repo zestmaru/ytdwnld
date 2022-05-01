@@ -20,6 +20,10 @@ image::ytdwnld.png[title="ytdwnld screenshot", 400, 400]
 === Pillow (>=9.1.0)
 `pip install --upgrade Pillow`
 
+// https://gitpython.readthedocs.io/en/stable/intro.html#installing-gitpython
+=== GitPython (>=3.1.27)
+`pip install gitpython`
+
 // https://pyinstaller.org/en/stable/
 === py2exe (>=5.0.1)
 *WINDOWS ONLY* `pip install py2exe`

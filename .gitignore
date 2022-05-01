@@ -13,6 +13,9 @@
 # version file
 !ytdwnld_version
 
+# git version script
+!git_version.py
+
 # repo stuff
 !README.adoc
 !LICENSE
